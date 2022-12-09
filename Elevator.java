@@ -8,7 +8,7 @@ public class Elevator extends Thread{
     public Elevator() {
     }
 
-    @Override
+  
     public void run() {
 
         while(!Company.closed()){
