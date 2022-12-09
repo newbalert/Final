@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//final practice of multi threading and extend thread 11.2//
 public class User extends Thread{
     private String userName;
     private double weight;
