@@ -18,7 +18,7 @@ public class User extends Thread{
         return atWork;
     }
 
-    @Override
+   
     public void run() {
         long time = System.currentTimeMillis();
         long diff = 0;
@@ -83,7 +83,7 @@ public class User extends Thread{
         this.weight = weight;
     }
 
-    @Override
+   
     public String toString() {
         return "Name: " + userName;
     }
